@@ -1,6 +1,5 @@
 import React from 'react'
 import "./About.css";
-import { Link } from 'react-router-dom';
 import img from "../../assets/img/exampleFoto.jpeg";
 import Navbar from "../../Components/Navbar/Navbar";
 

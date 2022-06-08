@@ -1,11 +1,17 @@
+.navbar{
+    /* background-color: #6A6A6A; */
+    /* background-color: #868686; */
+    background-color: rgba(63, 62, 62, 0.39);
+}
+
 .menus{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: flex-start;
     flex-direction: column;
     padding-left: 70px;
     box-sizing:border-box;
-    background-color: rgba(63, 62, 62, 0.39);
+    
 }
 
 .menus a{
@@ -53,6 +59,11 @@
     font-weight: 700;
 }
 
-.active{
-    border: 2px solid white;
+.menus a.active{
+    border-top: 2px solid rgba(63, 62, 62, 0.39);
+    border-left: 2px solid rgba(63, 62, 62, 0.39);
+    border-bottom: 2px solid rgba(63, 62, 62, 0.39);
+    background-color: white;
+    color: black;
+    transform: scale(1.01);
 }

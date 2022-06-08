@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Portfolio.css";
 import Navbar from "../../Components/Navbar/Navbar";
+
+
 const Portfolio = () => {
   return (
     <div className="home portfolio">
      <Navbar/>
-      <div className="section">
         <div className="sub-section">
           <div className="item-container">
             <a href="/#" target="_blank" rel="noopener noreferrer">
@@ -51,7 +52,6 @@ const Portfolio = () => {
           </div>          
         </div>
       </div>
-    </div>
   );
 }
 
