@@ -134,7 +134,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./react.jpg);
+    background-image: url(../../assets/img/react.jpg);
     background-size: cover;
 }
 .section.right::before {
