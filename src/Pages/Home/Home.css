@@ -4,67 +4,11 @@
     height: 100vh;
 }
 
-.menus{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    padding-left: 70px;
-    box-sizing:border-box;
-    background-color: rgba(63, 62, 62, 0.39);
-}
-
-.menus a{
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.3rem;
-    transition: 300ms;
-    text-align: left;
-    margin: 10px 0;
-    padding: 6px 10px;
-    border-radius: 4px;
-    background-color: rgba(63, 62, 62, 0);
-    color: white;
-}
-
-.menus i {
-    transition: 300ms;
-    margin-right: 6px;
-}
-
-.menus a:hover{
-    transition: 300ms;
-    background-color: white;
-    color: black;
-    transform: scale(1.03);
-}
-
-.menus a:active{
-    transition: 300ms;
-    background-color: white;
-    color: black;
-    transform: scale(1.03);
-}
-
-.menus a:hover i{
+/* .menus a:hover i{
     transition: 300ms;
     color:black;
     background-color: white;
-}
-
-.credit{
-    margin-top: 40px;
-    font-weight: 300;
-    text-align: left;
-    font-family: 'Dancing Script', cursive;
-    /* color: rgb(173, 173, 173); */
-    background-color: transparent;
-}
-
-.designer{
-    color: rgb(204, 62, 180);
-    font-weight: 700;
-}
+} */
 
 .image{
     margin-top: 45px;
@@ -152,8 +96,4 @@
     justify-content: flex-start;
     padding-top: 150px;
     border-right: 1px solid rgba(255, 255, 255, 0.329);
-}
-
-.active{
-    border: 2px solid white;
 } 
