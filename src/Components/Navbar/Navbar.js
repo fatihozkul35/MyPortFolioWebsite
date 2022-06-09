@@ -3,17 +3,20 @@ import { Link } from 'react-router-dom';
 import "./Navbar.css"
 
 
-const Navbar = () => {
+const Navbar = () => {  
   return (
     <div className="navbar">
       <div className="section menus">
-        <Link className="active" to="/">
+        <Link to="/">
           <i className="fas fa-home"></i> Home
         </Link>
-        <Link to="/about">
+        <Link
+          to="/about">
           <i className="fas fa-user"></i> About
         </Link>
-        <Link to="/portfolio">
+        <Link
+          to="/portfolio"
+        >
           <i className="fas fa-drafting-compass"></i> Portfolio
         </Link>
         <Link to="/contact">

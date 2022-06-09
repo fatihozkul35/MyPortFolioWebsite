@@ -6,14 +6,16 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home">
-      <Navbar/>
+      <Navbar />
       <div className="section right">
         <div className="image">
           <img src={image} alt="user" />
         </div>
         <div className="details">
-          <h1>FATIH ÖZKUL</h1>
-          <p>Hello! I'm a Frontend Web Developer...</p>
+          <h1 className="details-title">FATIH ÖZKUL</h1>
+          <p className="details-pragraf">
+            Hello! I'm a Frontend Web Developer...
+          </p>
           <div className="social-links">
             <li>
               <a

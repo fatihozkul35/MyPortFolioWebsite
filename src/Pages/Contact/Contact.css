@@ -16,44 +16,15 @@
 .section-contact{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* box-sizing: border-box; */
 }
-/* .contacts{
-    border: 1px solid red;
-} */
-/* 
-.contact h2{
-    font-size: 3.5rem;
-    text-align: left;
+.contacts{
+    background-color:#72F2EB;
+    padding-top:30px;
+    height:150px;
+    border-radius: 15px;
+    margin: 30px;
 }
-
-.quote{
-    margin-top: -30px;
-    text-transform: uppercase;
-    font-weight: bolder;
-    letter-spacing: 5px;
+.contacts:hover{
+    background-color:white;
+    border: 1px solid #72F2EB;
 }
-
-.wrapper{
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.wrapper h2{
-    color: #838383;
-}
-
-.small{
-    margin-top: -150px;
-    font-size: 2rem;
-    text-align: left;
-    padding-left: 33%;
-    text-transform: uppercase;
-}
-
-.small small{
-    color: rgb(172, 172, 172);
-    font-weight: 500;
-} */

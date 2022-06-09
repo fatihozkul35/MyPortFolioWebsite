@@ -4,9 +4,12 @@ import img from "../../assets/img/exampleFoto.jpeg";
 import Navbar from "../../Components/Navbar/Navbar";
 
 const About = () => {
+  const dataOfSkills = ["HTML5", "CSS3", "SASS/SCSS", "Bootstrap5", "Javascript",
+              "React.js", "Redux"," Next.js", "TypeScript","Material UI", "Styled Components", "Git&GitHub", "Firebase", "Python", "Django", "Restframework",
+              "RestAPI"] 
   return (
     <div className="home about">
-      <Navbar/>
+      <Navbar />
       <div className="about-container">
         <div className="container-top">
           <div className="container-top-img">
@@ -16,14 +19,12 @@ const About = () => {
             <div className="title">
               <p>Name: </p>
               <p>Birthdate: </p>
-              <p>Email: </p>
               <p>District: </p>
               <p>Hobby: </p> <br />
             </div>
             <div className="title-value">
               <p className="value">FATIH ÖZKUL </p>
-              <p className="value">03 FEBRUARY 1993</p>
-              <p className="value">fatihozkul3541@gmail.com</p>
+              <p className="value">03/FEBRUARY/1993</p>
               <p className="value">Möhnesee </p>
               <p className="value">WEB DEVELOPMENT & TRAVELLING</p>
             </div>
@@ -40,11 +41,12 @@ const About = () => {
             </p>
             <hr />
             <p>
-              Hello! welcome to my Website. I'm a Frontend Web Developer. I've
-              skills in HTML5, CSS3, SASS/SCSS, Bootstrap5, Javascript,
-              React.js, Redux, Next.js, TypeScript,Material UI, Styled
-              Components, Git&GitHub, Firebase, Python, Django, Restframework,
-              RestAPI and i keep learning...
+              Hello! Welcome to my Website. I'm a Frontend Web Developer. I've
+              skills in{" "}
+              {dataOfSkills.map((skill) => (
+                <span className="skills">{skill}, </span>
+              ))}
+              and i keep learning...
             </p>
           </div>
         </div>
