@@ -6,25 +6,25 @@ const projectsOfData = [
   {
     link: "https://reactcapstoneproject.netlify.app/",
     img: "/static/images/react-capstone.png",
-    title: "To Do App",
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
+    title: "Blog App",
+    description: `In this project i used redux for state management, react router dom for pages, material UI for styling, sometimes styled component and as backend firebase(authentication and real time datebase functions etc...)`,
   },
   {
     link: "https://reacttodocreatinbyadamsandler.netlify.app/",
     img: "/static/images/ToDoAPP-react.png",
     title: "To Do App",
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
+    description: ``,
   },
   {
     link: "https://javascript-restaurant-menu.netlify.app/",
     img: "/static/images/JavaScript-Restaurant-Menü.png",
-    title: "Restaurant Menü App",
+    title: "Restaurant Menü",
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
   },
   {
     link: "https://recipe-app-api-axios.netlify.app/",
     img: "/static/images/recipe-app-API.png",
-    title: "To Do App",
+    title: "Recipe Api",
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
   },
   {
@@ -43,7 +43,7 @@ const projectsOfData = [
   {
     link: "https://react-tourplaces.netlify.app/",
     img: "/static/images/React-Tour-Places.png",
-    title: "To Do App",
+    title: "Tour Places",
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
   },
 ];
@@ -64,7 +64,7 @@ const Portfolio = () => {
               {/* div info */}
               <div className="project-info">
                 <h1 className="title">{title}</h1>
-                <p>{description}</p>
+                {/* <p>{description}</p> */}
                 <a href={link} target="_blank" rel="noreferrer" className="btn">
                   Go to Project
                 </a>
