@@ -16,6 +16,12 @@ const projectsOfData = [
     description: ``,
   },
   {
+    link: "https://javascripthoverboard.netlify.app/",
+    img: "/static/images/JavaScriptHover.png",
+    title: "Hoverboard App",
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
+  },
+  {
     link: "https://javascript-restaurant-menu.netlify.app/",
     img: "/static/images/JavaScript-Restaurant-Menü.png",
     title: "Restaurant Menü",
@@ -56,8 +62,7 @@ const Portfolio = () => {
       <div className="sub-section">
         {/* div card */}
         {projectsOfData.map((data, i) => {
-          console.log(data)
-          const {link, img, title, description} = data;
+          const {link, img, title } = data;
           return (
             <div key={i} className="img-project">
               <img src={img} alt="here is a pic of any project" />

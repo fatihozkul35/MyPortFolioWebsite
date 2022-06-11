@@ -23,7 +23,8 @@
 }
 
 .img-project:hover{
-    transform: translateY(20px)
+    transform: translateY(-10px);
+    /* transform: scale(1,1); */
 }
 
 .img-project img {
@@ -72,6 +73,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    
 }
 
 .img-project .project-info h1{
