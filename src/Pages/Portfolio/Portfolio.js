@@ -4,6 +4,12 @@ import Navbar from "../../Components/Navbar/Navbar";
 
 const projectsOfData = [
   {
+    link: "https://reactcapstoneproject.netlify.app/",
+    img: "/static/images/react-capstone.png",
+    title: "To Do App",
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
+  },
+  {
     link: "https://reacttodocreatinbyadamsandler.netlify.app/",
     img: "/static/images/ToDoAPP-react.png",
     title: "To Do App",
@@ -16,17 +22,18 @@ const projectsOfData = [
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
   },
   {
+    link: "https://recipe-app-api-axios.netlify.app/",
+    img: "/static/images/recipe-app-API.png",
+    title: "To Do App",
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
+  },
+  {
     link: "https://008calculator.netlify.app/",
     img: "/static/images/JavaScriptCalculator.png",
     title: "Calculator App",
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
   },
-  {
-    link: "https://reactcapstoneproject.netlify.app/",
-    img: "/static/images/react-capstone.png",
-    title: "To Do App",
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
-  },
+
   {
     link: "https://oclockproject.netlify.app/",
     img: "/static/images/react-Oclock.png",
@@ -36,12 +43,6 @@ const projectsOfData = [
   {
     link: "https://react-tourplaces.netlify.app/",
     img: "/static/images/React-Tour-Places.png",
-    title: "To Do App",
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
-  },
-  {
-    link: "https://recipe-app-api-axios.netlify.app/",
-    img: "/static/images/recipe-app-API.png",
     title: "To Do App",
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic.`,
   },
