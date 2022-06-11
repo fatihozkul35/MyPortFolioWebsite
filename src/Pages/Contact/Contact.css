@@ -24,7 +24,12 @@
     border-radius: 15px;
     margin: 30px;
 }
+.whatsapp a{
+    color: black;
+}
+
 .contacts:hover{
     background-color:white;
     border: 1px solid #72F2EB;
 }
+
