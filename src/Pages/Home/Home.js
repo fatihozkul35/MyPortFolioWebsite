@@ -12,7 +12,7 @@ const Home = () => {
           <img src={image} alt="user" />
         </div>
         <div className="details">
-          <h1 className="details-title">FATIH ÖZKUL</h1>
+          <h1 className="details-title">FATIH</h1>
           <p className="details-pragraf">
             Hello! I'm a Frontend Web Developer...
           </p>

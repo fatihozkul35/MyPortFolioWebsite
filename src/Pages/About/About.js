@@ -16,12 +16,12 @@ const About = () => {
             <img className="about-image" src={img} alt="pictureOffatihozkul" />
           </div>
           <div className="about-me">
-            <div className="title">
+            {/* <div className="title">
               <p>Name: </p>
               <p>Birthdate: </p>
               <p>District: </p>
               <p>Hobby: </p> <br />
-            </div>
+            </div> */}
             <div className="title-value">
               <p className="value">FATIH ÖZKUL </p>
               <p className="value">03/FEBRUARY/1993</p>
