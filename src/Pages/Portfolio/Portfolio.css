@@ -24,7 +24,6 @@
 
 .img-project:hover{
     transform: translateY(-10px);
-    /* transform: scale(1,1); */
 }
 
 .img-project img {
@@ -80,14 +79,6 @@
     margin: 0;
 }
 
-/* .img-project .project-info p{
-    letter-spacing: 1px;
-    font-size: 15px;
-    margin-top: 8px;
-    margin-bottom: 20px;
-    width: 100%;
-} */
-
 .img-project .project-info .btn{
     text-decoration: none;
     padding:.5rem 1rem;
@@ -103,28 +94,20 @@
     z-index: 1;
 }
 
+.note {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fffbcc; /* Hafif sarı bir arka plan rengi */
+  border: 2px solid #f4d03f; /* Daha parlak bir sarı kenarlık */
+  border-radius: 8px; /* Köşeleri yumuşatmak için */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+  font-size: 16px; /* Yazı boyutunu artırma */
+  font-weight: 500; /* Yazıyı daha vurgulu hale getirme */
+  color: #333; /* Kolay okunabilir koyu bir yazı rengi */
+  text-align: center; /* Metni ortalamak için */
+}
 
-/* for button styling but later */
-/* .img-project .project-info .btn:hover{
-    cursor: pointer;
-} */
-
-/* .img-project .project-info .btn:before{
-    transition: 0.5s ease;
-    position: absolute;
-    top: 0;
-    left:0;
-    right: 0;
-    bottom:0;
-    opacity: 1;
-    content:"";
-    background-color: #42FBF2;
-} */
-
-/* .img-project:hover .project-info .btn:hover:before{
-    transition: 0.5s all ease;
-    left: 50%;
-    right: 50%;
-    opacity: 1;
-    z-index: -1;
-} */
+.note p {
+  margin: 0;
+  line-height: 1.6; /* Satır yüksekliğini artırma */
+}

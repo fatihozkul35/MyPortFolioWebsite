@@ -14,7 +14,7 @@ const Home = () => {
         <div className="details">
           <h1 className="details-title">FATIH</h1>
           <p className="details-pragraf">
-            Hello! I'm a Frontend Web Developer...
+            Hello! I'm a Web Developer...
           </p>
           <div className="social-links">
             <li>

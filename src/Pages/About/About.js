@@ -4,8 +4,8 @@ import img from "../../assets/img/exampleFoto.jpeg";
 import Navbar from "../../Components/Navbar/Navbar";
 
 const About = () => {
-  const dataOfSkills = ["HTML5", "CSS3", "SASS/SCSS", "Bootstrap5", "Javascript",
-              "React.js", "Redux"," Next.js", "TypeScript","Material UI", "Styled Components", "Git&GitHub", "Firebase", "Python", "Django", "Restframework",
+  const dataOfSkills = ["HTML5", "CSS3", "SASS/SCSS", "Bootstrap5", "Javascript", 
+              "React.js", "Redux"," Next.js", "TypeScript","Material UI", "Styled Components", "Git&GitHub&GitLap", "Firebase", "Python", "Django", "Restframework",
               "RestAPI"] 
   return (
     <div className="home about">
@@ -16,16 +16,10 @@ const About = () => {
             <img className="about-image" src={img} alt="pictureOffatihozkul" />
           </div>
           <div className="about-me">
-            {/* <div className="title">
-              <p>Name: </p>
-              <p>Birthdate: </p>
-              <p>District: </p>
-              <p>Hobby: </p> <br />
-            </div> */}
             <div className="title-value">
               <p className="value">FATIH ÖZKUL </p>
-              <p className="value">03/FEBRUARY/1993</p>
-              <p className="value">Möhnesee </p>
+              <p className="value">FEBRUARY 1993</p>
+              <p className="value">Körbecke </p>
               <p className="value">WEB DEVELOPMENT & TRAVELLING</p>
             </div>
           </div>

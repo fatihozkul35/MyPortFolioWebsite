@@ -30,6 +30,14 @@
 
 .contacts:hover{
     background-color:white;
-    border: 1px solid #72F2EB;
 }
 
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #007bff;
+}

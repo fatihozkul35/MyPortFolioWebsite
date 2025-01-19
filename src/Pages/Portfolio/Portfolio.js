@@ -58,28 +58,36 @@ const Portfolio = () => {
   return (
     <div className="home portfolio">
       <Navbar />
-      {/* div wrapper */}
-      <div className="sub-section">
-        {/* div card */}
-        {projectsOfData.map((data, i) => {
-          const {link, img, title } = data;
-          return (
-            <div key={i} className="img-project">
-              <img src={img} alt="here is a pic of any project" />
-              {/* div info */}
-              <div className="project-info">
-                <h1 className="title">{title}</h1>
-                {/* <p>{description}</p> */}
-                <a href={link} target="_blank" rel="noreferrer" className="btn">
-                  Go to Project
-                </a>
+        <div>
+          <div className="note">
+            <p>
+              These projects were created during my early learning journey. While they represent the foundation of my development career, my current skill set is far beyond what these examples demonstrate. They remain here to showcase my growth over the years.
+            </p>
+          </div>
+          <div className="sub-section">
+          {projectsOfData.map((data, i) => {
+            const { link, img, title } = data;
+            return (
+              <div key={i} className="img-project">
+                <img src={img} alt="here is a pic of any project" />
+                {/* div info */}
+                <div className="project-info">
+                  <h1 className="title">{title}</h1>
+                  <a href={link} target="_blank" rel="noreferrer" className="btn">
+                    Go to Project
+                  </a>
+                </div>
               </div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+          </div>
+
+        </div>
+
+
+      
     </div>
   );
-}
+};
 
 export default Portfolio
