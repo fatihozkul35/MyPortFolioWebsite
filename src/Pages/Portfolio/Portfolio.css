@@ -95,7 +95,7 @@
 }
 
 .note {
-  margin-bottom: 20px;
+  margin: 1.5rem;
   padding: 15px;
   background-color: #fffbcc; /* Hafif sarı bir arka plan rengi */
   border: 2px solid #f4d03f; /* Daha parlak bir sarı kenarlık */

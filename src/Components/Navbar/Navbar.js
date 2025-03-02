@@ -8,7 +8,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
-        <i className={menuOpen ? "fas fa-times" : "fas fa-bars"}></i>
+        <i className={menuOpen ? "fas fa-times" : "fas fa-bars"}>
+          <span> ZF Edition</span>
+        </i>
       </div>
 
       <div className={`menus ${menuOpen ? "open" : ""}`}>
