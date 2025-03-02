@@ -13,12 +13,6 @@ const Contact = () => {
           <h2 className="quote">'''''''NO PAIN NO GAIN'''''''</h2>
         </div>
         <div className="section-contact">
-            <a href="tel:+4917632064132" className="contact-link">
-              <div className="contacts whatsapp">
-                  <i className="fa fa-whatsapp fa-5x"></i>
-                  <p>+49 176 320 641 32</p>
-              </div>
-            </a>
             <a href="mailto:fatihozkul3541@gmail.com" className="contact-link">
               <div className="contacts email">
                   <i className="fa fa-at fa-4x"></i>

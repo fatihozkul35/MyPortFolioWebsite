@@ -78,3 +78,11 @@ span.skills{
     color: red;
     font-weight: bold;
 }
+
+/* Küçük ekranlarda (max-width: 768px) */
+@media (max-width: 768px) {
+    .container-top-img {
+        display: none;
+    }
+
+}

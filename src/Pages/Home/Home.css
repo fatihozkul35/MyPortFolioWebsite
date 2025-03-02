@@ -1,7 +1,7 @@
 .home{
     display: grid;
     grid-template-columns: 300px 1fr;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .image{
@@ -28,7 +28,7 @@
 }
 
 .details  .details-pragraf {
-    width: 650px;
+    /* width: 650px; */
     margin: auto;
     color: white;
     letter-spacing: 2px;
@@ -37,10 +37,11 @@
 
 .social-links{
     display: flex;
-    margin: auto;
+    justify-content: center;
+    /* margin: auto;
     margin-top: 50px;
     text-align: center;
-    padding: 5px 39%;
+    padding: 5px 39%; */
 }
 
 .social-links li{
@@ -74,9 +75,10 @@
 
 .section.right{
     position: relative; 
-    height: 100vh;
+    /* min-height:100vh; */
     width: 100%;
     display: flex;
+    gap: 1rem;
     align-items: center;
     justify-content: center;
     background-image: url(../../assets/img/react.jpg);
@@ -97,4 +99,16 @@
     justify-content: flex-start;
     padding-top: 150px;
     border-right: 1px solid rgba(255, 255, 255, 0.329);
-} 
+}
+
+/* Küçük ekranlarda (max-width: 768px) navbar üstte olacak */
+@media (max-width: 768px) {
+    .home {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        height: auto;
+    }
+    .section.right{
+        flex-direction: column;
+    }
+}

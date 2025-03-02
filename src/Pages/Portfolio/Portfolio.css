@@ -1,7 +1,7 @@
 
 .sub-section{
     margin-top: 1rem;
-    padding-left: 1.5rem;
+    padding: 1rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 40px 60px;
@@ -110,4 +110,16 @@
 .note p {
   margin: 0;
   line-height: 1.6; /* Satır yüksekliğini artırma */
+}
+
+/* Küçük ekranlarda (max-width: 768px) */
+@media (max-width: 1024px) {
+    .sub-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .sub-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

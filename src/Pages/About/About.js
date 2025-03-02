@@ -4,7 +4,7 @@ import img from "../../assets/img/exampleFoto.jpeg";
 import Navbar from "../../Components/Navbar/Navbar";
 
 const About = () => {
-  const dataOfSkills = ["HTML5", "CSS3", "SASS/SCSS", "Bootstrap5", "Javascript", 
+  const dataOfSkills = ["HTML5", "CSS3", "SASS/SCSS", "Bootstrap5", "Tailwind", "Javascript", 
               "React.js", "Redux"," Next.js", "TypeScript","Material UI", "Styled Components", "Git&GitHub&GitLap", "Firebase", "Python", "Django", "Restframework",
               "RestAPI"] 
   return (
@@ -37,8 +37,8 @@ const About = () => {
             <p>
               Hello! Welcome to my Website. I'm a Frontend Web Developer. I've
               skills in{" "}
-              {dataOfSkills.map((skill) => (
-                <span className="skills">{skill}, </span>
+              {dataOfSkills.map((skill, index) => (
+                <span className="skills" key={index}>{skill}, </span>
               ))}
               and i keep learning...
             </p>

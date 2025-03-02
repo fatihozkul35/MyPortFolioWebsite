@@ -1,38 +1,33 @@
-.navbar{
-    /* background-color: #6A6A6A; */
-    /* background-color: #868686; */
+.navbar {
     background-color: rgba(63, 62, 62, 0.39);
-}
-
-.menus{
+    padding: 10px 20px;
     display: flex;
-    /* justify-content: center; */
-    align-items: flex-start;
-    flex-direction: column;
-    padding-left: 70px;
-    box-sizing:border-box;    
+    padding-top: 3rem;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* position: relative; */
 }
 
-.menus a{
+/* Menü */
+.menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menus a {
     text-decoration: none;
     font-weight: 600;
     font-size: 1.3rem;
     transition: 300ms;
-    text-align: left;
-    margin: 10px 0;
+    margin: 10px;
     padding: 6px 10px;
     border-radius: 4px;
-    background-color: rgba(63, 62, 62, 0);
+    background-color: transparent;
     color: white;
 }
 
-.menus i {
-    transition: 300ms;
-    margin-right: 6px;
-}
-
-.menus a:hover{
-    transition: 300ms;
+.menus a:hover {
     background-color: white;
     color: black;
     transform: scale(1.03);
@@ -44,7 +39,6 @@
     color: black;
     transform: scale(1.03);
 }
-
 .credit{
     margin-top: 40px;
     font-weight: 300;
@@ -53,16 +47,51 @@
     background-color: transparent;
 }
 
-.designer{
+    .designer{
     color: rgb(204, 62, 180);
     font-weight: 700;
 }
 
-/* .menus a.active{
-    border-top: 2px solid rgba(63, 62, 62, 0.39);
-    border-left: 2px solid rgba(63, 62, 62, 0.39);
-    border-bottom: 2px solid rgba(63, 62, 62, 0.39);
-    background-color: white;
-    color: black;
-    transform: scale(1.01);
-} */
+/* Mobil için Menü Butonu */
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive Ayarlar */
+@media (max-width: 768px) {
+    .navbar{
+        padding-top: 0;
+    }
+    .menus {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .menus.open {
+        display: flex;
+        z-index: 999;
+    }
+
+    .menus a {
+        font-size: 1.2rem;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+    .credit{
+        display: none;
+    }
+}

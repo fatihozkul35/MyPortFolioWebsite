@@ -1,28 +1,29 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import "./Navbar.css"
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-const Navbar = () => {  
   return (
-    <div className="navbar">
-      <div className="section menus">
-        <Link to="/">
+    <nav className="navbar">
+      <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+        <i className={menuOpen ? "fas fa-times" : "fas fa-bars"}></i>
+      </div>
+
+      <div className={`menus ${menuOpen ? "open" : ""}`}>
+        <Link to="/" onClick={() => setMenuOpen(false)}>
           <i className="fas fa-home"></i> Home
         </Link>
-        <Link
-          to="/about">
+        <Link to="/about" onClick={() => setMenuOpen(false)}>
           <i className="fas fa-user"></i> About
         </Link>
-        <Link
-          to="/portfolio"
-        >
+        <Link to="/portfolio" onClick={() => setMenuOpen(false)}>
           <i className="fas fa-drafting-compass"></i> Portfolio
         </Link>
-        <Link to="/contact">
+        <Link to="/contact" onClick={() => setMenuOpen(false)}>
           <i className="fas fa-address-card"></i> Contact
         </Link>
-        <br />
         <div className="credit">
           <small>
             Designed by <span className="designer">Fatih Özkul</span>
@@ -31,8 +32,8 @@ const Navbar = () => {
           <small>Personal Website © 2022</small>
         </div>
       </div>
-    </div>
+    </nav>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
