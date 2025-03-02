@@ -3,9 +3,6 @@
     padding: 10px 20px;
     display: flex;
     padding-top: 3rem;
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    /* position: relative; */
 }
 
 /* Menü */
@@ -63,7 +60,7 @@
 /* Responsive Ayarlar */
 @media (max-width: 768px) {
     .navbar{
-        padding-top: 0;
+        padding-top: 10px;
     }
     .menus {
         display: none;
